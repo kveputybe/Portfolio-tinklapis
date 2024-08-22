@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+body,
+html {
+ height: 100%;
+}
+
+.logo{
+  width: 35px;
+  height: 35px;
+}
+
+.gradient-background-home-kontaktai{
+  background-image: linear-gradient(#C0D4DB,#F7E0DA, #78A2CC);
+}
+
+.gradient-projektai{
+  background-image: linear-gradient(170deg,#78A2CC,#F7E0DA 40% , #C0D4DB);
+
+}
+
+input {
+  background-color: transparent;
+}
+
+.custom-margin-logo{
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.custom-width-info{
+  width: 30%;
+}
+
+.custom-width-line{
+  width: 13%;
+}
+
+.custom-font-size-title{
+  font-size: 40px;
+  font-family: 'Poppins';
+}
+
+.custom-font-size-sec-title{
+  font-size: 24px;
+  font-family: 'Poppins';
+}
+
+.custom-font-size-text{
+  font-size: 15px;
+  font-family: 'Poppins';
+}
+
+.custom-margin-name{
+  margin-bottom: -20px;
+}
+
+.custom-height-main{
+  height: 100vh;
+}
+.custom-sizing{
+  width: 26vw;
+  height: 36vh;
+}
+
+@media (min-width: 576px) { 
+  .custom-sizing{
+    width: 40vw;
+    height: 30vh;
+  }
+}
+
+@media (min-width: 768px) { 
+  .custom-sizing{
+    width: 38vw;
+    height: 32vh;
+  }
+}
+
+@media (min-width: 992px) { 
+  .custom-sizing{
+    width: 34vw;
+    height: 33vh;
+  }
+}
+
+@media (min-width: 1200px) { 
+  .custom-sizing{
+    width: 32vw;
+    height: 36vh;
+  }
+}
+
+@media (min-width: 1400px) { 
+  .custom-sizing{
+    width: 26vw;
+    height: 36vh;
+  }
+}
+
+.custom-margin-projektai{
+  margin-top: 10%;
+}
+
+input{
+  border:0;
+}
+
+.custom-hight-info{
+  height: 80px;
+}
+
+@keyframes fade-up{
+  0%{
+    opacity: 0;
+    transform: translateY(40px) scale(0.9);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes fade-down{
+  0%{
+    opacity: 0;
+    transform: translateY(-40px) scale(0.9);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.intro_down{
+  animation: fade-down 0.5s;
+}
+
+.intro_1{
+  animation: fade-up 0.5s;
+}
+
+.intro_2{
+  animation: fade-up 1s;
+}
+
+.intro_3{
+  animation: fade-up 1.5s;
+}
+
+.intro_4{
+  animation: fade-up 2s;
+}
+
+@keyframes fade-out{
+  0%{
+    opacity: 1;
+    transform: translateX(80px) scale(0.9);
+  }
+
+  100%{
+    opacity: 0;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes come-in{
+  0%{
+    transform: translateY(580px) scale(0.5);
+  }
+
+  100%{
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes come-out{
+  0%{
+    transform: translateY(0px) scale(1.);
+  }
+
+  100%{
+    transform: translateY(450px) scale(0.5);
+  }
+}
+
+#content_start{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  animation: come-in 3s;
+}
+
+#content_end{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  animation: come-out 3s;
+}
+
+#pavadinimas{
+  font-size: 40px;
+  font-family: 'Poppins';
+}
+
+#informacija{
+  text-align: center;
+  width: 30%;
+  text-wrap:wrap;
+  margin-left:34.5%;
+  font-family: 'Poppins';
+  animation: come-in 4s;
+}
+#exit{
+  border-radius: 50%;
+  position: absolute;
+  top:100%;
+  left: 48.8%;
+  animation: come-in 2s;
+}
+
+.nav-link{
+  font-family: 'Poppins';
+}
+
+.fadeUp {
+  transition: opacity 1.5s ease, transform 1.5s ease;
+  opacity: 0;
+  transform: translateY(-200%);
+}
+
+.fadeDown {
+  transition: opacity 1.5s ease, transform 1.5s ease;
+  opacity: 0;
+  transform: translateY(200%);
+}
+
+.fadeInUp {
+  transition: opacity 1.5s ease, transform 1.5s ease;
+  opacity: 1;
+}
+
+.fadeInDown {
+  transition: opacity 1.5s ease, transform 1.5s ease;
+  opacity: 1;
+}
+
+.fadeOut {
+  transition: opacity 3s ease;
+  opacity: 0;
+}
+
+.fadeIn {
+  transition: opacity 3s ease;
+  opacity: 1;
+}
+
+.custom-margin-top{
+  margin-top: 3rem;
+}
+
+.custom-width-kLine{
+  width: 50%;
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+  .custom-font-size-title{
+    font-size: 26px;
+    font-family: 'Poppins';
+  }
+  .nav-link{
+    font-family: 'Poppins';
+
+  }
+  .custom-font-size-sec-title{
+    font-size: 18px;
+    font-family: 'Poppins';
+  }
+  .custom-font-size-text{
+    font-family: 'Poppins';
+
+  }
+  .custom-width-info{
+    width:75%;
+  }
+  .custom-width-line{
+    width: 33%;
+  }
+  .custom-width-mobile-pTitle{
+    width: 80%;
+  }
+  #pavadinimas{
+    font-size: 26px;
+    font-family: 'Poppins';
+
+  }
+  #informacija{
+    width: 75%;
+    margin-left:42px;
+    font-family: 'Poppins';
+
+  }
+  #exit{
+    position: absolute;
+    left: 44%;
+  }
+  .custom-align-mobile{
+    text-align: center;
+  }
+  .custom-margin-top{
+    margin-top: 5px;
+  }
+  .custom-width-kLine{
+    width:80%;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/basilinabag/test_saris.git/static/css/main.d2f548fd.css",
+    "main.js": "/basilinabag/test_saris.git/static/js/main.daa3b53b.js",
+    "static/js/787.2224025c.chunk.js": "/basilinabag/test_saris.git/static/js/787.2224025c.chunk.js",
+    "static/media/finansu_valdumo_il.svg": "/basilinabag/test_saris.git/static/media/finansu_valdumo_il.c91139c3dc53d693f5a36ce4cdd36e16.svg",
+    "static/media/No_Results.svg": "/basilinabag/test_saris.git/static/media/No_Results.acb8efdc5b9618b5fe4f559b773644eb.svg",
+    "index.html": "/basilinabag/test_saris.git/index.html",
+    "static/media/logo.svg": "/basilinabag/test_saris.git/static/media/logo.6451e9a1ea9532646f4c1e0a1ff85e16.svg",
+    "static/media/Noise.svg": "/basilinabag/test_saris.git/static/media/Noise.7ea097d99f5239222af0350f8f9ebb9a.svg",
+    "main.d2f548fd.css.map": "/basilinabag/test_saris.git/static/css/main.d2f548fd.css.map",
+    "main.daa3b53b.js.map": "/basilinabag/test_saris.git/static/js/main.daa3b53b.js.map",
+    "787.2224025c.chunk.js.map": "/basilinabag/test_saris.git/static/js/787.2224025c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2f548fd.css",
+    "static/js/main.daa3b53b.js"
+  ]
+}
